@@ -1,4 +1,5 @@
 # Realty Analytica
+![logo_converted](https://github.com/piotrsenkow/realtyanalytica/assets/25436323/4ede4dc9-ac44-420f-9872-457e84d211f2)
 
 Welcome to the Realty Analytica project, a comprehensive real estate analytics platform. This monorepo contains both the frontend and backend parts of the application.
 
