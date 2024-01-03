@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito+Sans:opsz@6..12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -28,3 +28,9 @@ body {
     /* font-family: 'Lato', sans-serif; */
     font-family: 'Nunito Sans', sans-serif;
 }
+
+h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 900;
+}
+
