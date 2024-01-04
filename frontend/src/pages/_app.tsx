@@ -3,6 +3,8 @@ import Head from 'next/head';
 import ReactGA from 'react-ga'; // Import ReactGA
 import { useEffect } from 'react';
 import type { AppProps } from 'next/app'
+import { ApolloProvider } from '@apollo/client';
+import client from '../utils/apolloClient'
 
 export default function App({ Component, pageProps }: AppProps) {
 
@@ -12,6 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
   }, []);
 
   return (
+    <ApolloProvider client={client}>
     <>
       <Head>
         <title>Realty Analytica - Coming Soon</title>
@@ -20,5 +23,6 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <Component {...pageProps} />
     </>
+    </ApolloProvider>
   )
 }

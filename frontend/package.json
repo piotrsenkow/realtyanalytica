@@ -9,6 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.8.8",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.6.3",
+    "graphql": "^16.8.1",
     "lottie-web": "^5.12.2",
     "next": "14.0.3",
     "react": "^18",
